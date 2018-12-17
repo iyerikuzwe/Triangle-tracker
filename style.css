@@ -1,6 +1,6 @@
 
 h1{
-    color: blue;
+    color: #4af525;
     text-align: center;
     font-size: 60px;
     font-style: italic;
@@ -54,4 +54,28 @@ h1{
   p{
       font-size:25px;
       font-weight:normal;
+      display:inline;
   }
+  #eqltr{
+    width: 0;
+    border-bottom: 100px solid #000;
+    border-right: 100px solid transparent;
+    border-left: 100px solid transparent;
+    
+}
+#iscl{
+    width: 0;
+    border-bottom: 80px solid #000;
+    border-right: 100px solid transparent;
+    border-left: 100px solid transparent;
+    
+}
+#scaln{
+    width: 0;
+    border-bottom: 200px solid #000;
+    border-right: 100px solid transparent;
+    border-left: 300px solid transparent;
+}
+
+
+
