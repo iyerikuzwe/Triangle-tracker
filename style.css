@@ -1,23 +1,14 @@
 
 #equilateral{
-    width: 0;
-    border-bottom: 110px solid #706;
-    border-right: 110px solid transparent;
-    border-left: 110px solid transparent;
+    
     
 }
 #iscoceless{
-    width: 0;
-    border-bottom: 90px solid #706;
-    border-right: 120px solid transparent;
-    border-left: 120px solid transparent;
+  
     
 }
 #scalene{
-    width: 0;
-    border-bottom: 200px solid #706;
-    border-right: 100px solid transparent;
-    border-left: 320px solid transparent;
+    
 }
 h1{
     color: blue;
@@ -33,7 +24,7 @@ h1{
     font-weight: normal;
     text-transform: uppercase;
     font-size: 30px
-    float:center;
+   
   }
   h3{
     color: blue;
@@ -41,7 +32,7 @@ h1{
     font-weight: normal;
     text-transform: uppercase;
     font-size: 30px
-    float:center;
+  
   }
   h4{
     color: blue;
@@ -49,7 +40,7 @@ h1{
     font-weight: normal;
     text-transform: uppercase;
     font-size: 30px;
-    float:center;
+    
   }
   body{
     background-color: gray;
@@ -62,7 +53,7 @@ h1{
     font-weight: normal;
   
   }
-  button{
+  .wrapper{
      background-color: #4CAF50;
      border: none;
      color: white;
@@ -73,10 +64,9 @@ h1{
      font-size: 25px;
   }
   p{
-      text-align:center;
       font-size:25px;
       font-weight:normal;
   }
   input{
-      float:left;
+      
   }
