@@ -15,7 +15,7 @@
 }
 #scalene{
     width: 0;
-    border-bottom: 220px solid #706;
-    border-right: 120px solid transparent;
-    border-left: 300px solid transparent;
+    border-bottom: 60px solid #706;
+    border-right: 40px solid transparent;
+    border-left: 100px solid transparent;
 }
