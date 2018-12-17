@@ -15,9 +15,9 @@
 }
 #scalene{
     width: 0;
-    border-bottom: 60px solid #706;
-    border-right: 40px solid transparent;
-    border-left: 100px solid transparent;
+    border-bottom: 200px solid #706;
+    border-right: 100px solid transparent;
+    border-left: 320px solid transparent;
 }
 h1{
     color: blue;
