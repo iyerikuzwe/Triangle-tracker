@@ -74,3 +74,6 @@ h1{
       font-size:25px;
       font-weight:normal;
   }
+  1,2,3{
+      float:center;
+  }
