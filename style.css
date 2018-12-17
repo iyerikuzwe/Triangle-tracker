@@ -33,6 +33,7 @@ h1{
     font-weight: normal;
     text-transform: uppercase;
     font-size: 30px
+    float:center;
   }
   h3{
     color: blue;
@@ -40,6 +41,7 @@ h1{
     font-weight: normal;
     text-transform: uppercase;
     font-size: 30px
+    float:center;
   }
   h4{
     color: blue;
@@ -47,6 +49,7 @@ h1{
     font-weight: normal;
     text-transform: uppercase;
     font-size: 30px;
+    float:center;
   }
   body{
     background-color: gray;
@@ -73,7 +76,4 @@ h1{
       text-align:center;
       font-size:25px;
       font-weight:normal;
-  }
-  1,2,3{
-      float:center;
   }
