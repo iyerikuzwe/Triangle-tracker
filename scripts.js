@@ -9,7 +9,7 @@ function getResult(){
     }
     else if(side1 === side2 || side1 === side3 || side2 === side3){
     alert("This is an isosceles triangle ");
-    window.location.href="isoceles.html";
+    window.location.href="isosceles.html";
     }
     else if((side1 + side2) <= side3 || (side1 + side3) <= side2 || (side2 + side3) <= side1) {
     alert("Not a definite triangle");

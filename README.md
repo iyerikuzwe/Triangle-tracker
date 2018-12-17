@@ -1,5 +1,5 @@
 # Project-title
-Triangle Tracker
+Triangle-tracker
 
 # Project description
 This is an application that determines whether a set of three numbers can either make a scalene,Equilateral and or Isosceles triangle.
