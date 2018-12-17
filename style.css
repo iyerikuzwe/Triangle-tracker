@@ -1,6 +1,36 @@
+
 #equilateral{
-    width:0;
-    border-right:24px solid black;
-    border-left:24px solid black;
-    border-bottom:24px #7014;
+    width: 0;
+    border-bottom: 110px solid #706;
+    border-right: 110px solid transparent;
+    border-left: 110px solid transparent;
+    
+}
+#iscoceless{
+    width: 0;
+    border-bottom: 90px solid #706;
+    border-right: 120px solid transparent;
+    border-left: 120px solid transparent;
+    
+}
+#scalene{
+    width: 0;
+    border-bottom: 220px solid #706;
+    border-right: 120px solid transparent;
+    border-left: 300px solid transparent;
+}
+#undftr{
+    width: 0;
+    border-bottom: 250px solid #706;
+    border-right: 50px solid transparent;
+    border-left: 420px solid transparent;
+}
+
+#undftr2{
+    width: 0;
+    border-bottom: 250px solid #706;
+    border-right: 50px solid transparent;
+    border-left: 420px solid transparent;
+    margin-right: 170px;
+    margin-top: 320px;
 }
