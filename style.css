@@ -19,18 +19,3 @@
     border-right: 120px solid transparent;
     border-left: 300px solid transparent;
 }
-#undftr{
-    width: 0;
-    border-bottom: 250px solid #706;
-    border-right: 50px solid transparent;
-    border-left: 420px solid transparent;
-}
-
-#undftr2{
-    width: 0;
-    border-bottom: 250px solid #706;
-    border-right: 50px solid transparent;
-    border-left: 420px solid transparent;
-    margin-right: 170px;
-    margin-top: 320px;
-}
