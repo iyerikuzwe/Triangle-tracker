@@ -1,15 +1,4 @@
 
-#equilateral{
-    
-    
-}
-#iscoceless{
-  
-    
-}
-#scalene{
-    
-}
 h1{
     color: blue;
     text-align: center;
@@ -54,7 +43,7 @@ h1{
   
   }
   .wrapper{
-     background-color: #4CAF50;
+     background-color: white;
      border: none;
      color: white;
      padding: 15px 32px;
@@ -66,7 +55,4 @@ h1{
   p{
       font-size:25px;
       font-weight:normal;
-  }
-  input{
-      
   }
