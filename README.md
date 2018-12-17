@@ -15,6 +15,7 @@ Enter the link into the url interface and click the prompt.
 -Atom
 
 ## How it works.
+<iframe width="1273" height="716" src="https://www.youtube.com/embed/aUy-_WnEV30" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     1. if the sum of two sides is equal or exceeds the value of the third side, then the program will detect that the values do not form a definite triangle. --input - hypotenuse (7), opposite (2), adjacent (19) --output - values show an indefinite triangle.
 
