@@ -22,8 +22,6 @@ Enter the link into the url interface and click the prompt.
      second value (10), third value (10) --output - Triangle is Equilateral.
     3. if two values in the input are equal, third different, the program would show an iscoceles triangle. --input - first value (9), second value (9), third value(6) --output - Triangle is Iscoceles. 
     4. if the values entered differ but don't exceed each other by much, triangle would be a Scalene triangle. --input - first value (7), second value (5), third value (8) --output- Triangle is Scalene.
-    5.briefly this video can show more than the previous explaination.
-    <iframe width="1046" height="589" src="https://www.youtube.com/embed/sZMezOCZr40" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ### Author
 By Iyerikuzwe Regine| Date: December 17, 2018
 
@@ -31,3 +29,7 @@ By Iyerikuzwe Regine| Date: December 17, 2018
  This software iyerikuzwe/Triangle-tracker is licensed under the MIT license.
 
 Copyright (c) 2018 Regine Iyerikuzwe
+## Acknowledgement
+.Great thanks to moringa school facilitators for daily facilitation.
+.Hat tip to anyone whose code was used
+.Inspiration
