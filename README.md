@@ -1,5 +1,7 @@
 # Project-title
     Triangle-tracker
+### Author
+    By Iyerikuzwe Regine| Date: December 17, 2018   
 
 # Project description.
     This is an application that determines whether a set of three numbers can either make a scalene,Equilateral and or Isosceles triangle.
@@ -22,8 +24,7 @@
      second value (10), third value (10) --output - Triangle is Equilateral.
     3. if two values in the input are equal, third different, the program would show an iscoceles triangle. --input - first value (9), second value (9), third value(6) --output - Triangle is Iscoceles. 
     4. if the values entered differ but don't exceed each other by much, triangle would be a Scalene triangle. --input - first value (7), second value (5), third value (8) --output- Triangle is Scalene.
-### Author
-    By Iyerikuzwe Regine| Date: December 17, 2018
+
 ## Contact information
     phone number:0789140216
     E-mail:iyerikuzweregine19@gmail.com
