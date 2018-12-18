@@ -7,6 +7,7 @@
 1.  A running network connection to the internet.
 2.  A web browser.
 3.  This link https://github.com/iyerikuzwe/Triangle-tracker.
+
 ### Deployment
     Enter the link into the url interface and click the prompt.
 
