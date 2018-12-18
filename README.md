@@ -24,6 +24,9 @@
     4. if the values entered differ but don't exceed each other by much, triangle would be a Scalene triangle. --input - first value (7), second value (5), third value (8) --output- Triangle is Scalene.
 ### Author
     By Iyerikuzwe Regine| Date: December 17, 2018
+## Contact information
+    phone number:0789140216
+    E-mail:iyerikuzweregine19@gmail.com
 
 ### License
     This software iyerikuzwe/Triangle-tracker is licensed under the MIT license.
