@@ -13,8 +13,11 @@
 ### Deployment
     Enter the link into the url interface and click the prompt.
 
-### Built With
-    -Atom
+### Technologies used
+    -html
+    -css
+    -markdown
+    -javascript
 
 ### BDD
 
