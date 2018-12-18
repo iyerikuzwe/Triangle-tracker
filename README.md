@@ -28,10 +28,11 @@
     3. if two values in the input are equal, third different, the program would show an iscoceles triangle. --input - first value (9), second value (9), third value(6) --output - Triangle is Iscoceles. 
     4. if the values entered differ but don't exceed each other by much, triangle would be a Scalene triangle. --input - first value (7), second value (5), third value (8) --output- Triangle is Scalene.
 
-## Contact information
-    phone number:0789140216
-    E-mail:iyerikuzweregine19@gmail.com
+## link to live site on GitHub pages
+    https://iyerikuzwe.github.io/Triangle-tracker/
 
+##  Support
+    For assistance contact iyerikuzweregine19@gmail.com
 ### License
     This software iyerikuzwe/Triangle-tracker is licensed under the MIT license.
 
