@@ -6,7 +6,13 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <div>
+    <div class="navigation">
+            <nav>
+              <a href="eqlter.html">Equilateral-triangle</a>
+              <a href="isosceles.html">Isosceles-triangle</a>
+              <a href="scalene.html">Scalene-triangle</a>
+            </nav>
+    </div>
         <h1>Triangle Tracker Project</h1>
         <h2>what is a triangle?</h2>
         <div class="types">
@@ -22,29 +28,29 @@
           </ul>
         <div id="equilateral">
             <h2>what is an equilateral triangle?</h2>
-            <p>In geometry, an equilateral triangle is a triangle in which all three sides are equal. 
-              An equilateral triangle is also equiangular; that is, all three internal angles are also equal to each other.</p>
+            <p>It is a triangle that has all 3 sides have the same length. An equilateral triangle is also a regular polygon with all angles measuring 60°.</p>
             <img src="data:image/png;base64,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">
         </div>
         <div id="iscoceless">
           <h3>what is a iscoceless triangle?</h3>
-          <p>Isosceles triangle:In geometry, an isosceles triangle is a triangle that has two sides of equal length. Sometimes it is specified as having exactly two sides of equal length, and sometimes as having at least two sides of equal length.</p>
+          <p> An isosceles triangle is the triangle which has two sides of equal lengths.</p>
           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Isosceles-triangle-more.svg/220px-Isosceles-triangle-more.svg.png">
         </div>
          <div id="scalene">
             <h3>what is a scalene triangle?</h3>
-            <p>A scalene triangle is a triangle that has three unequal sides, such as this illustrated below.</p>
+            <p>A scalene triangle is the one which has all its 3 sides have different lengths.</p>
             <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASMAAACtCAMAAADMM+kDAAABMlBMVEX///8A//8AAP8AAAD5+f/i4v+5uf8hIf/k5OQAycna2v+urv81Nf94AAAAHBx1AAAAGBgA+fkAEhIA9PTv5+cA5uaAAACaVVX5+fkAmZnx8fEAIyOeXl4AdXUAtrYAk5MAZmYAb28ATk68lZXW1tYApaUA29sAQkLVvr4ALS0AVVXi0tLJqqpqAAAAOzuJKyu2ioqSQ0ONNzcAvr7ExMSjaGhxZ2cAf39DQ0OpcnK5ubmDFxdTVFSDfHwAXl5LVlZOODgOAABkZGQiHBw2NjYpKSnKysp5hIR6ev+MjIw5JCQA0tLl2NiLMTFaSUlUYWFZWf9udHTQ0P+Vlf9nZ/+hof/w8P/NsrKcnJxcAABIPj4sCwtjXFxISP9FLS0uCAgmDQ2AgP+1tf90dP/Dw/87MTEut+USAAAKWElEQVR4nO2da0PayBqAE2Zd4ewmAZJACMr9fr8oKoptvXSLWHfd9lS3pT29rP//L5yZIEpRMolMJlHn+QBUCJk8fd93JpcJHMdgMBgMBoPBYDAY7rPy/dfny/dfLBh69+2z7znz/tubFXND/67Cj60+a+D2/26qCBr69gPj8Ynz5i+f7/OHxe9DQ9/ptcajrHxf9f228N13Pt+vFBvjWVZ9qwtz6YfvG82meBef7z8L3ln57HtDtSmeZbGj30xC7Hlh5si003tGMEd4mCM8zBEe5ggPc4SHOcLDHOFhjvAwR3iYIzzMER7mCA9zhMcrjvwU12UXjzjSQY7eyuziEUeXYKjRW5tNPOJoCM6ZI3P6uQPwmtra7OIJR3ofJRuttdnGE45eb3C5Y0BrbbbxhKPLvfHBNriktTq7eMGRH9l5fbinU1qfXTzgaHgI67X/GIBDj5ZtDzjyPMwRHuYID3OEhznCwxzhYY7weMURO8aGB3hYkkccDcGxdyV5w9GgrJbBle7Rw2yecDQo8jyfWAcDWiu0hxccDYoyj+hmen1Kq7SFBxwNyvyUxqsTD54fcd/RoMHfoqbAV88dRnLd0SAj87MEki+9dkDSbUeDcoifIwnOvGXJZUe98rwhRCo+tD1aUk4dy1F3HQ0yd6LIQC6Cvq3irVwIrapTrXTVUa8o36sI1u4RODm3/kVaJ+uYIXcd9RoLDCFCifCV5W+KSCXj+aLZ2eF2diPVaORCa0ZKZNrpoqNe0UQRYgsMNix906kQbUoKx9XqVe6fGidFopokrelSnczOjXuOepVFiXZDYh9YGnhHhayy2zzlJKHKXSjoCTpSFEF65I4GZok2RZbBRwu1e03Ich2pxgmCUZWeiiPTWjRrqQKAH9erTx1JXnako7ZVa7VTqwv0Kvd3+vcQiIExZltLUlTrvD3lWtIOp1SvHenQkeUNMIWEo9JmNAsLZ6QuNRVrS/QWjIvup5A6w1x4U6p3ImjVrXq0pbVgO/S61Fbq0qbFLTCHgKPq2wiMda5U4poR439OURROUxRdU3ROV+5JlF7GhiFEumyteDsDkVyLIkcQRajDx2qkFSmdNqVObXe3lBU6d2KrV7GpCJalpM2BN0nIOqqjeIpscmsRriW09R1hTWvDWvozY+u1aIYCOBm4dCyXqCPjqSVscrpuPG0KLa4jzDmynWjTUOqCw94Dt3I5SDqqGo9IzvXTPY407OjahGSm50bCEXRURTJqsAM2c9Tbf0iiTQntg0truyckIeNIMvr+aDTaPuV0tC+5aajalKAj6WLmk2Nbnf5dZBW8oh5KRPp+KOet0okiR+gP7XaTq7aj7VI22q7uRDu3I8ux/R7tDgULA2+yUN0X6e0vr2gy8KY6WqLp6GypWjRraYvqFe8UHY2JRNE1cOBNbbREzZFGohbdEtoqg9eULqOg5micIpRoUwoJ8JFO7abliGwUTVCTJ1QG3nQcaWcka9EtsQqNWSZ0HI1TjiiC5BtDxwfeVBwR6/TvQQZfxw6XJRqOzhyLIoNCA1g/E/cQnHekOZdoUxLrZ04OvJ13dJZ2WhGPTleeO2fJcUcOJ9qUUMO5I94OO9IoKYKocZBzZuDtsKNxmpYiY+DtzMVdzjp6SS2KDNQYGC/d5rs46Uh7uU5VESIF7F8Ch8NBRxqVHm2eWIb4HSccdPTSDUXoErhXPbKh5Jyjj/QT7ZpCMHxF8gCcU450VxJtCtm5J045OnMtiiZ0K+Tmnjjk6MplRZAiuCJ0Js4RR9rLLZPGjwojs20LqdNXhdHiS5ML6oK3bpH3CR3xdsKRZp5oSQDMDiepN37LIL/gM4UiSGId8XwAfLwkULydcPTFPNHUYNjMUSp280F14ZW3W6IVR3whD/aWPxNH3pF2MpNo+WKqm0dHVCvpEK8m9l7A0DAchSrbSV5uiOKoAWDayIdHXWOBRDxe3K+IYJQJZsrBxHSZBvxLEcAcDZX3G+J+13DUPTrEXr7Mpx8w92QO4o702URTQYxP5fk83Dq4oei+dGGgIkdyOqzBdBmJ8W5XLPKF8h8bIGAssi7COAqXt2RQqIiJ22Xi+YIIeLWS4WPBghFHAbDxR7mAlWR77skdiDv6qVyrILjFq3xYDPABlQdwLyEcRI74QLh8DgAfEON8QqzwSfHFHmjMOAqqoUAogxyB3M0yosgnwsjRvuEoU/7zyEpZUgNLXgJH2tHJzz1aN46SIi4aMSLLWy/Kk+0diWJIlm8cxcR19M8ZRyg+kKOZZQxHjQyfLE/qUUXMh2RLJxNCCXDoGUf6l58VhdRAOZyHcWT09gnwJxecxlEQ/eUmjoI3y805ml0GOuLl5Bb6qBFH8G3LJMHgwbu6RB1pZ3PjIrUhBwCqRzDjAjwQ/ZfxoCzD7ZVT4S6fQPXIcFRoZAr8pKNPBfOBEMwuw1F3uszUUaGRh3ShoxjfBWk51LUqKZF68OlKoo4+zQ8d1fVYBZ3nz4PMloyGKyMQzmTCIMWHMuFKV26EQTIBYKSpoJGZjAplUO6mQRgWp1g4XFZvl0mPAPxwWBTFYDlVDscDUFIxje/YpsiqpbknzjrSPlkasyxFKJaG7C8aW2IWzjzsEjhyjnTTHRBC5Ee3jw/AwtwTRx19oaAIlmwUR/hB0UJG67i5Jw46+up8ohmEIEt9wXrc7pk4Qo70L5QUESC0FbY38CbjyPxgiOcogE9DG7WbjKOvj0qRMffkyvolcCQc6f97PIl2Q8z63BMCjqh0+g6Qsjr3hIAjCkNHR0BzTyztwy3tSHsVwzfHqxQA0PHFe1lHj6nTvwdLc0+WdKQ9bkW8MfcEd7rSlqODo+Pj7e3ty9sOATziRLuheGg+98ReHPUB4LgcOJocRd/IHRULgScAAKaXwNlzlEOOuKPJDo8GnhIme7oPcNSf/jaR/ylh0r3ZdrS3d7Tn0XumLo9+eb53cJmbO0HwgDjSD7e9e//dpdDP0Zb5h3M/mbNEPXpyaMPJZYJ+Ao6OvfpjKUvi377/Lt62HG0MAej3h9tEwuj6hnLahWfuvboB7v9dKnuO+hsb/f4GgWqktFrtyavNuoN3LbTHaxKOiKHtCsLa5OX1/cE02Fei7tLNLlM/IJBrBMlOHCk7EeRI2d3crelNSSo169VaRLJ4Oy7SbBwfoMT3z5Vbdx0pWSOOlLbA1f7hSkKkWhOE0+s739BH6w8Gw8v+5dwBSlcd6S2Ua6dcSYpw+ilyxNWEKNcSdhxcsxma5s/l/PP57q6juiRFInVDDmTiqO2io/tx1ZHWymaFyI4RRxxzNE9WmvZr0imnr0k1Lmuoqklt4zaPXsKlvr/Zab59a3T6kV10e6Ros1PVm81m62K3WcvuNi8wX0AVt+9V/xhgjvAwR3iYIzzMER7mCA9zhIc5wsMc4VnsiHvPHE0wcfTD94ZmS7yLWRz5Pq/QbIpX+a+Jow8+37802+JVfve9W/zmXz6f78PKMwdGkWmovPcxfJhs+vD3qtvtc593f2Ny8RcGxhCDwWAwGAwGg8FgMBiPif8DMdlkSIuZZhcAAAAASUVORK5CYII=">
          </div>
         <script src="triangle.js"></script>
         <div class="wrapper">
-          <input type ="number" id="side1" placeholder="length of side1">
-          <input type ="number" id="side2" placeholder="length of side2">
-          <input type ="number" id="side3" placeholder="length of side3">
-    <button type = "button" onclick = "getResult()">Try It Out</button>
+            <h2>How to know the type of a triangle</h2>
+            <h3>Please enter the lenght to see what type is it?</h3>
+            <input type ="number" id="side1" placeholder="length of side1">
+            <input type ="number" id="side2" placeholder="length of side2">
+            <input type ="number" id="side3" placeholder="length of side3">
+            <button type = "button" onclick = "getResult()">Try It Out</button>
         </div>
         <script src="scripts.js"></script>
-      </div>
-    </div>
+        </div>
   </body>
 </html>
