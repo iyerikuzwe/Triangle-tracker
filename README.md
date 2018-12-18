@@ -30,6 +30,6 @@ By Iyerikuzwe Regine| Date: December 17, 2018
 
 Copyright (c) 2018 Regine Iyerikuzwe
 ## Acknowledgement
-.Great thanks to moringa school facilitators for daily facilitation.
-.Hat tip to anyone whose code was used
-.Inspiration
+.  Great thanks to moringa school facilitators for daily facilitation.
+.  Hat tip to anyone whose code was used
+.  Inspiration
