@@ -4,9 +4,9 @@
 # Project description.
     This is an application that determines whether a set of three numbers can either make a scalene,Equilateral and or Isosceles triangle.
 ## Requirements
-1.  A running network connection to the internet.
-2.  A web browser.
-3.  This link https://github.com/iyerikuzwe/Triangle-tracker.
+    1.  A running network connection to the internet.
+    2.  A web browser.
+    3.  This link https://github.com/iyerikuzwe/Triangle-tracker.
 
 ### Deployment
     Enter the link into the url interface and click the prompt.
