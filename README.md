@@ -16,7 +16,7 @@
 ### Built With
     -Atom
 
-## How it works.
+### BDD
 
     1. if the sum of two sides is equal or exceeds the value of the third side, then the program will detect that the values do not form a definite triangle. --input - hypotenuse (7), opposite (2), adjacent (19) --output - values show an indefinite triangle.
 
